@@ -51,7 +51,7 @@ const newData = gun.get('user/alice').once(function(data, key) {
     console.log('Alice\'s data:', data);
 });
 
-newData.put({ age: 288 });
+newData.put({ age: 32 });
  gun.get('user/alice').once(function(data, key) {
     console.log('Alice\'s data:', data);
 });
