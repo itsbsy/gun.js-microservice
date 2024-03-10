@@ -3,6 +3,8 @@ const Gun = require('gun');
 // Initialize Gun
 var gun = Gun();
 
+
+
 // Create nodes for users
 var alice = gun.get('user/alice').put({
     name: "Alice",
@@ -11,7 +13,7 @@ var alice = gun.get('user/alice').put({
 
 var bob = gun.get('user/bob').put({
     name: "Bob",
-    age: 25
+    age: 26
 });
 
 // Create a post node for Alice
