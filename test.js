@@ -30,8 +30,6 @@ var bobsPost = gun.get('post/bobsAdventure').put({
 
 // Link Alice to her post
 alice.get('posts').set(alicesPost);
-
-
 // Link Bob to his post
 bob.get('posts').set(bobsPost);
 
