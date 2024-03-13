@@ -41,7 +41,7 @@ bob.get('friends').set(alice);
 
 bob.put({ age: 288 });
 
-//retrivin data
+//retriving data
 gun.get('user/bob').on(function(data) {
     console.log(data);
   });
